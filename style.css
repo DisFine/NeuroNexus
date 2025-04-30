@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f4e8ff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.56);
+    -moz-box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.56);
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #673ab7;
+    color: white;
+    padding: 24px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header .head1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header .para1 {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.content {
+    padding: 24px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c2c3c5;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border 0.2s;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #673ab7;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 75px;
+    max-height: 150px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-option {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.radio-option input {
+    margin-top: 4px;
+    margin-right: 7px;
+}
+
+.submit-button {
+    text-align: right;
+}
+
+.Sub-But {
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 2px 4px 0px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 4px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 0px 0px rgba(0,0,0,0.75);
+    transition: all 0.1s ease;
+}
+
+.Sub-But:hover {
+    background-color: #5020af;
+    box-shadow: 1px 2px 0px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 0px 0px rgba(0,0,0,0.75);
+    transform: translateY(2px);
+}

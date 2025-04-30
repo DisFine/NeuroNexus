@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="head1">Information Collection Form</h1>
+            <p class="para1">Please fill out all required fields</p>
+        </div>
+        <div class="content">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="Full-Name" class="required">Full Name</label>
+                    <input type="text" id="Full-Name" name="Full-Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Contact-Number" class="required">Contact Number</label>
+                    <input type="tel" id="Contact-Number" name="Contact-Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="Address" class="required">Address</label>
+                    <textarea id="Address" name="Address"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Company-Name" class="required">Company Name</label>
+                    <input type="text" id="Company-Name" name="Company-Name">
+                </div>
+                <div class="form-group">
+                    <label for="Email-Address" class="required">Email Address</label>
+                    <input type="email" id="Email-Address" name="Email-Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="Department">Department</label>
+                    <select id="Department" name="Department">
+                        <option value="">Choose Department</option>
+                        <option value="hr">HR</option>
+                        <option value="sales">Sales</option>
+                        <option value="development">Development</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="Male" name="Gender" value="Male">
+                            <label for="Male">Male</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="Female" name="Gender" value="Female">
+                            <label for="Female">Female</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="Prefer-Not" name="Gender" value="Prefer-Not">
+                            <label for="Prefer-Not">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group submit-button">
+                    <button type="submit" class="Sub-But">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
