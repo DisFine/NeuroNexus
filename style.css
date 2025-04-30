@@ -96,6 +96,11 @@ textarea {
     text-align: right;
 }
 
+.required:after {
+    content: " *";
+    color: red;
+}
+
 .Sub-But {
     background-color: #673ab7;
     color: white;
